@@ -41,6 +41,8 @@ li{
 .contents1{
     background-color: aqua;
     width: 60%;
+    padding: 5px 10px 10px 10px;
+    /* display: flex; */
 }
 
 .contents2{
@@ -49,25 +51,54 @@ li{
 }
 
 .contents1, .contents2{
-    height: 50%;
+    height: 100%;
 }
 
 h1{
-    font-size: 45px;
+    font-size: 5.5vw;
     font-style: bold;
     text-align: center;
 }
 
 img[src$="img/soyokaze.jpg"]{
-    width: 50%;
+    width: 40%;
+}
+
+.introduce{
+    display: flex;
+    font-size: 1.3vw;
+}
+
+img[src$="img/soyokaze.jpg"], .introduce{
+    height: 50%;
+}
+
+.words{
+    padding-left: 10px;
 }
 
 h3{
-    font-size: 30px;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    margin: 20px;
+    height: 50px;
+}
+
+img[src$="img/robotmedia.jpg"]{
+    height: 50px;
+    margin: 20px;
+}
+
+p{
     text-align: center;
 }
 
 footer{
     background-color: bisque;
-    height: 50px;
+    height: auto;
+    text-align: right;
 }
