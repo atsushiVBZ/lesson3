@@ -66,7 +66,6 @@ img[src$="img/soyokaze.jpg"]{
 
 .introduce{
     display: flex;
-    font-size: 1.3vw;
 }
 
 img[src$="img/soyokaze.jpg"], .introduce{
@@ -75,6 +74,7 @@ img[src$="img/soyokaze.jpg"], .introduce{
 
 .words{
     padding-left: 10px;
+    font-size: 1.4vw;
 }
 
 .contents2 h4{
@@ -85,6 +85,7 @@ img[src$="img/soyokaze.jpg"], .introduce{
 
 .icons{
     display: flex;
+    /* flex-wrap: wrap; */
     margin: 0px 20px 10px 20px;
     padding: 2px;
     height: 50px;
@@ -99,6 +100,8 @@ img[src$="img/robotmedia.jpg"]{
 }
 
 p{
+    /* flex-wrap: wrap; */
+    font-display: block;
     text-align: center;
 }
 
