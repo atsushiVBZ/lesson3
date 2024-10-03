@@ -11,6 +11,7 @@ body{
 header{
     background-color: white;
     margin: 10px;
+    height: 50px;
     display: flex;
 }
 
@@ -22,11 +23,11 @@ header{
     width: 50%;
     margin: 5px;
     text-align: right;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 img[src$="img/breeze.png"]{
-    height: 50px;
+    height: 100%;
 }
 
 li{
@@ -42,7 +43,6 @@ li{
     background-color: aqua;
     width: 60%;
     padding: 5px 10px 10px 10px;
-    /* display: flex; */
 }
 
 .contents2{
@@ -77,20 +77,25 @@ img[src$="img/soyokaze.jpg"], .introduce{
     padding-left: 10px;
 }
 
-h3{
-    font-size: 4vw;
+.contents2 h4{
+    padding-top: 10px;
+    font-size: 3vw;
     text-align: center;
 }
 
 .icons{
     display: flex;
-    margin: 20px;
+    margin: 0px 20px 10px 20px;
+    padding: 2px;
     height: 50px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
 }
 
 img[src$="img/robotmedia.jpg"]{
-    height: 50px;
-    margin: 20px;
+    width: 90%;
+    margin: 0px 20px 10px 20px;
 }
 
 p{
@@ -101,4 +106,5 @@ footer{
     background-color: bisque;
     height: auto;
     text-align: right;
+    padding: 10px;
 }
