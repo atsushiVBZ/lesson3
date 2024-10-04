@@ -51,10 +51,6 @@ img[src$="img/breeze.png"]{
     width: 40%;
 }
 
-/* .contents1, .contents2{
-    height: 100%;
-} */
-
 h1{
     font-size: 60px;
     font-style: bold;
@@ -75,10 +71,6 @@ img[src$="img/soyokaze.jpg"]{
     display: flex;
 }
 
-/* img[src$="img/soyokaze.jpg"], .introduce{
-    height: 50%;
-} */
-
 .words{
     padding-left: 30px;
     font-size: 20px;
@@ -97,13 +89,10 @@ ul li{
 
 .icons{
     display: flex;
-    /* flex-wrap: wrap; */
     margin: 0px 20px 10px 20px;
     padding: 2px;
     height: 70px;
-    border-width: 2px;
-    border-color: black;
-    border-style: solid;
+    border: 2px solid black;
 }
 
 .filmmaker{
@@ -118,7 +107,6 @@ img[src$="img/robotmedia.jpg"]{
 }
 
 p{
-    /* flex-wrap: wrap; */
     font-display: block;
     text-align: center;
 }
@@ -129,8 +117,6 @@ footer{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    /* text-align: right; */
-    /* padding: 10px; */
 }
 
 .contact{
